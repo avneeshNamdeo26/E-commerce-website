@@ -1,4 +1,4 @@
-package org.example.productorderingapp.apigateway.config;
+package com.example.productorderingapp.apigateway.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

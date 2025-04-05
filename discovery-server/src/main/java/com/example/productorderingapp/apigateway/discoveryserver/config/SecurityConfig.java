@@ -1,4 +1,4 @@
-package org.example.productorderingapp.apigateway.discoveryserver.config;
+package com.example.productorderingapp.apigateway.discoveryserver.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

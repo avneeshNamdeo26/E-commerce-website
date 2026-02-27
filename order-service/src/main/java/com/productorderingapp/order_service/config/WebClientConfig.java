@@ -33,6 +33,7 @@ public class WebClientConfig {
      ProducerFactory getProducerFactory(){
         return new DefaultKafkaProducerFactory(getProperties());
     }
+
     @Bean
     KafkaTemplate<String, OrderPlacedEvent> getKafkaTemplate(){
         return new KafkaTemplate(getProducerFactory());
